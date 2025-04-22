@@ -57,29 +57,13 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 pip install -r requirements.txt
 
 # Apply migrations
-python manage.py migrate
+python3 manage.py migrate
 
 # Run the development server
-python manage.py runserver
+python3 manage.py runserver
 ```
 
 Open your browser and visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
----
-
-## 🖼️ How to Upload Screenshots to GitHub
-
-1. Inside your repo folder, create a directory called `screenshots/`
-2. Save your image files (`dashboard.png`, etc.) into that folder
-3. Run:
-
-```bash
-git add screenshots/
-git commit -m "Add screenshots for README"
-git push
-```
-
-Your README will now display those images hosted from your repo.
 
 ---
 
@@ -93,6 +77,4 @@ Your README will now display those images hosted from your repo.
 
 ---
 
-## 📜 License
 
-This project is open-source and available under the [MIT License](LICENSE).
